@@ -88,10 +88,10 @@ class bind::params {
           'dump-file'              => '"/var/named/data/cache_dump.db"',
           'managed-keys-directory' => '"/var/named/dynamic"',
           'memstatistics-file'     => '"/var/named/data/named_mem_stats.txt"',
-          'pid-file'               => '"/run/named/named.pid"',
+          'pid-file'               => '"/var/run/named/named.pid"',
           'listen-on'              => ['127.0.0.1'],
           'listen-on-v6'           => ['::1'],
-          'session-keyfile'        => '"/run/named/session.key"',
+          'session-keyfile'        => '"/var/run/named/session.key"',
           'statistics-file'        => '"/var/named/data/named_stats.txt"',
         }
     }
